@@ -10,7 +10,7 @@ console.log(data);
     const handleCreate = () => {
         setData([...data,{id:Math.random()*1000}])
     }
-    
+
     return (
         <>
 
@@ -34,7 +34,7 @@ console.log(data);
                     <div className="box2"></div>
                 </div>
 
-                <article style={{display:"flex",overflowX:"auto",gap:"50px"}}>
+                <article style={{display:"flex",overflowX:"auto",gap:"50px",marginLeft:"20px"}}>
 
                 {
                     data.map((value,index) =>
@@ -45,7 +45,7 @@ console.log(data);
                                 <h2 style={{ border: "1px solid black" }} key={value.id}>List {index+1}</h2>
                                 <ul className="radioone" style={{ display: "flex", listStyle: "none" }}>
                                     <input type="radio" />
-                                    <li style={{ backgroundColor: "aqua" }}>Sent an email to company</li>
+                                    <li >Sent an email to company</li>
                                 </ul>
                                 <ul className="radioone" style={{ display: "flex", listStyle: "none" }}>
                                     <input type="radio" />
