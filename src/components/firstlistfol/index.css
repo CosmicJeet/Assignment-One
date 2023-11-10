@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* background-color: red; */
+
+}
+.subparent{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.taskbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    /* background-color: red; */
+    
+    height: 40px;
+    align-items: center;
+    width: 85%;
+}
+.subcreatecontainer{
+    /* background-color: red; */
+    width: 10%;
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    /* align-items: flex-end; */
+    /* justify-content: center; */
+}
+.createlist{
+    /* background-color: blue; */
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logoplus{
+    /* background-color: aqua; */
+    width: 15px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 35px;
+}
+.createcontainer{
+    /* background-color: red; */
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
